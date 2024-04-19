@@ -1,0 +1,90 @@
+/* You can add global styles to this file, and also import other style files */
+$gutter: 1rem; //for primeflex grid system
+
+/* Layout */
+
+/* PrimeNG */
+@import '../../test-repo-fail-main/node_modules/primeng/resources/primeng.min.css';
+@import '../../test-repo-fail-main/node_modules/primeflex/primeflex';
+@import '../../test-repo-fail-main/node_modules/primeicons/primeicons.css';
+
+/* Quill Text Editor for p-editor */
+@import '../../test-repo-fail-main/node_modules/quill/dist/quill.core.css';
+@import '../../test-repo-fail-main/node_modules/quill/dist/quill.snow.css';
+
+
+
+#myJointPaperContainer {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* port styling */
+.available-magnet {
+  fill: #5da271;
+}
+
+/* element styling */
+.available-cell rect {
+  stroke-dasharray: 5, 2;
+}
+
+/* menu styling */
+.p-menuitem-link-active {
+  span {
+    font-weight: 900;
+    color: var(--menuitem-icon-color);
+  }
+
+  .p-menuitem-icon  {
+    font-weight: 900;
+    color: var(--menuitem-icon-color);
+  }
+}
+
+.parent-active {
+  font-weight: 900;
+}
+
+.normal-text {
+  font-weight: 400;
+}
+
+.p-menuitem-icon {
+  color: var(--menuitem-icon-color) !important;
+}
+
+/* tooltip styling */
+.p-tooltip-info {
+  min-width: 350px;
+}
+
+/* calendar styling */
+.fc-timegrid-event-harness > .fc-timegrid-event {
+  display: block;
+  inset: auto !important;
+}
+
+/* table styling */
+.p-datatable-loading-overlay {
+  z-index: 100 !important;
+  display: flex !important;
+  background-color: rgba(255, 255, 255, 0.666) !important;
+}
+
+/* Iframe styling */
+iframe {
+  width: 100%;
+  height: 100vh;
+  border-radius: 10px;
+}
+
+/* CARD STYLING */
+.pay-card {
+  &__auto {
+    min-height: calc(100vh - 150px);
+  }
+}
+
+

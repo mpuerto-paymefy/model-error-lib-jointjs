@@ -1,0 +1,44 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": true,
+    "strictPropertyInitialization": true,
+    "skipLibCheck": true,
+    "noFallthroughCasesInSwitch": true,
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2022",
+    "module": "es2020",
+    "lib": ["es2020", "dom", "esnext.asynciterable"],
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "@admin/*": ["src/app/admin/*"],
+      "@core/*": ["src/app/core/*"],
+      "@guards/*": ["src/app/core/guards/*"],
+      "@services/*": ["src/app/core/services/*"],
+      "@models/*": ["src/app/core/models/*"],
+      "@resolvers/*": ["src/app/core/resolvers/*"],
+      "@layout/*": ["src/app/layout/*"],
+      "@modules/*": ["src/app/modules/*"],
+      "@demo/*": ["src/app/demo/*"],
+      "@shared/*": ["src/app/shared/*"],
+      "@assets/*": ["src/assets/*"]
+    }
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true
+  }
+}
