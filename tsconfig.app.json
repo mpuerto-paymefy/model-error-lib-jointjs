@@ -7,7 +7,7 @@
     "typeRoots": ["../node_modules/@types"]
   },
   "files": [
-    "../test-repo-fail-main/src/main.ts",
+    "../model-error-lib-jointjs/src/main.ts",
     "src/polyfills.ts"
   ],
   "include": [

@@ -8,7 +8,7 @@
     ]
   },
   "files": [
-    "../test-repo-fail-main/src/test.ts",
+    "../model-error-lib-jointjs/src/test.ts",
     "src/polyfills.ts"
   ],
   "include": [

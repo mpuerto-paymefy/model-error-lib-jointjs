@@ -2,15 +2,15 @@
     "name": "apollo-ng",
     "version": "15.0.1",
     "scripts": {
-        "ng": "../test-repo-fail-main/node_modules/.bin/ng",
-        "start": "../test-repo-fail-main/node_modules/.bin/ng serve",
-        "build": "../test-repo-fail-main/node_modules/.bin/ng build --prod",
-        "test": "../test-repo-fail-main/node_modules/.bin/ng test --configuration=ci",
-        "test:dev": "../test-repo-fail-main/node_modules/.bin/ng test",
-        "test:cover": "../test-repo-fail-main/node_modules/.bin/ng test --code-coverage",
-        "lint": "../test-repo-fail-main/node_modules/.bin/eslint ./src/app --fix",
-        "e2e": "../test-repo-fail-main/node_modules/.bin/ng e2e",
-        "rtl": "../test-repo-fail-main/node_modules/.bin/webpack --config webpack-rtl.config.js"
+        "ng": "../model-error-lib-jointjs/node_modules/.bin/ng",
+        "start": "../model-error-lib-jointjs/node_modules/.bin/ng serve",
+        "build": "../model-error-lib-jointjs/node_modules/.bin/ng build --prod",
+        "test": "../model-error-lib-jointjs/node_modules/.bin/ng test --configuration=ci",
+        "test:dev": "../model-error-lib-jointjs/node_modules/.bin/ng test",
+        "test:cover": "../model-error-lib-jointjs/node_modules/.bin/ng test --code-coverage",
+        "lint": "../model-error-lib-jointjs/node_modules/.bin/eslint ./src/app --fix",
+        "e2e": "../model-error-lib-jointjs/node_modules/.bin/ng e2e",
+        "rtl": "../model-error-lib-jointjs/node_modules/.bin/webpack --config webpack-rtl.config.js"
     },
     "private": true,
     "dependencies": {
